@@ -196,13 +196,18 @@ Hero
 
 .hero-center {
   max-width: var(--max-width);
-  width: 95%;
+  min-width: 95%;
+  width: 100%;
   display: grid;
   place-items: center;
 }
 
 .img-container {
   display: none;
+}
+
+.hero-title {
+  min-width: 100%;
 }
 
 .hero-title h1 {
@@ -262,11 +267,11 @@ Projects
   border-radius: var(--border-radius);
   box-shadow: var(--shadow-2);
   transition: var(--transition);
-  width: 100%;
+  min-width: 100%;
   height: 100%;
   display: grid;
   grid-template-rows: 1fr auto;
-  background: var(--grey-200);
+  background: var(--primary-100);
 }
 
 .project:hover {
@@ -324,4 +329,59 @@ Projects
   color: var(--primary-600);
   background: var(--primary-300);
   border-radius: var(--border-radius);
+}
+
+main {
+  position: relative;
+  min-height: calc(100vh - 6rem);
+}
+
+footer {
+  padding: 2rem;
+  background: var(--primary-500);
+  color: var(--grey-500);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  min-height: 5rem;
+  font-family: var(--headingFont);
+  font-size: 0.975rem;
+  letter-spacing: 0.5px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: -6rem;
+}
+
+footer p {
+  max-width: 50rem;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+footer span a {
+  letter-spacing: 2px;
+  text-align: center;
+  color: var(--grey-500);
+  cursor: pointer;
+  transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+  border-radius: var(--border-radius);
+}
+
+footer span a:hover {
+  background: var(--primary-800);
+  color: var(--white);
+}
+
+@media (min-width: 768px) {
+  footer p {
+    flex-direction: row;
+  }
+  footer span a {
+    padding: 1rem;
+  }
 }

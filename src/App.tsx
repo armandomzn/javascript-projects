@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 
@@ -6,6 +7,7 @@ function App() {
     <main>
       <Hero />
       <Projects />
+      <Footer />
     </main>
   );
 }

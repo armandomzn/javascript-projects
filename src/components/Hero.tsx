@@ -11,7 +11,7 @@ const Hero = () => {
           </p>
         </div>
         <div className="img-container">
-          <img src={javascriptImage} alt="react projects" />
+          <img src={javascriptImage} alt="javascript projects" />
         </div>
       </div>
     </section>
