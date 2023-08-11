@@ -163,7 +163,7 @@ React Projects
 }
 
 .loading-parent {
-  margin-top: 2rem;
+  margin-top: 10%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -214,6 +214,7 @@ Hero
   font-weight: bold;
   color: var(--primary-500);
   letter-spacing: var(--letter-spacing);
+  font-size: clamp(1.5rem, 5vw, 5rem);
 }
 
 .hero-title p {

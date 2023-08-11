@@ -9,7 +9,7 @@ interface Props {
 const Project = ({ project, image }: Props) => {
   return (
     <article className="project">
-      <a href={project.url_project} target="_blank">
+      <a href={project.urlProject} target="_blank">
         <img src={image} alt={project.title} />
       </a>
       <div className="project-info">

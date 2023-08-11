@@ -4,6 +4,6 @@ export interface ProjectProps {
   id: string;
   title: string;
   image: Image;
-  url_project: string;
+  urlProject: string;
   github: string;
 }
