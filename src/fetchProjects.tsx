@@ -18,11 +18,11 @@ export const useFetchProjects = () => {
           content_type: "javascriptProjects",
         });
         const projects = projectsArray.items.map((item) => {
-          const { title, url_project, github } = item.fields;
+          const { title, urlProject, github } = item.fields;
           const id = item.sys.id;
           return {
             title,
-            url_project,
+            urlProject,
             image: item.fields.image,
             github,
             id,
