@@ -328,7 +328,7 @@ Projects
 
 .project-info .project-icon:hover {
   color: var(--primary-600);
-  background: var(--primary-300);
+  background: var(--primary-200);
   border-radius: var(--border-radius);
 }
 
