@@ -1,6 +1,6 @@
 ## Javascript Projects
 
-![]()
+![](./screenshots/javascript-projects.jpeg)
 
 ## Live Example
 
