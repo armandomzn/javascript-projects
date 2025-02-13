@@ -1,8 +1,8 @@
 # Javascript Projects
 
 This is a **React** application that fetches data from **Contentful CMS** to display a collection of JavaScript-related projects. The application includes components for the hero section, project listings, and a footer. It dynamically loads and displays the project data from the CMS, making it easy to showcase reusable and modular components created with HTML, CSS, and JavaScript.
+![javascript-projects](https://github.com/user-attachments/assets/ca10c914-e9e7-4c90-9cb0-0f4fb3f34355)
 
-![javascript-projects](https://github.com/user-attachments/assets/276d1f80-9e1e-4dff-999b-44f90be9833a)
 
 ## Features:
 - Fetches project data from **Contentful CMS**.
