@@ -1,6 +1,7 @@
 ## Javascript Projects
 
-![](./screenshots/javascript-projects.jpeg)
+![javascript-projects](https://github.com/user-attachments/assets/276d1f80-9e1e-4dff-999b-44f90be9833a)
+
 
 ## Live Example
 
